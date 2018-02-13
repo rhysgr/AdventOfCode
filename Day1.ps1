@@ -4,7 +4,7 @@
 
 $bracketOpenChar = "("
 $bracketClosedChar = ")"
-$brackets = (gc  S:\Prod\AdventOfCode\RhysE\input.txt) -split ''
+$brackets = (gc  S:\Prod\AdventOfCode\RhysE\inputDay1.txt) -split ''
 $Counter = 0
 
 foreach($action in $brackets){
@@ -23,7 +23,7 @@ $counter
 
 $bracketOpenChar = "("
 $bracketClosedChar = ")"
-$brackets = (gc  S:\Prod\AdventOfCode\RhysE\input.txt) -split ''
+$brackets = (gc  S:\Prod\AdventOfCode\RhysE\inputDay1.txt) -split ''
 $Counter = 0
 $position = 0
 
